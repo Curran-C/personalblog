@@ -1,13 +1,19 @@
 <%- include("partials/header.ejs") %>
+<div class="txt-center-align">
     <div class="container-fluid">
-        <h1>We can help!</h1>
-        <h3>We are currently available for freelancing</h3>
-        <h3>If you have a project in mind and want to get started</h3>
-        <h3>we can help you. Get in touch!</h3>
+        <h1 class="contact-title blue-color">We can help!</h1>
+        <h3 class="contact-tag-line light-blue-color">We are currently available for freelancing</h3>
+        <div class="contact-info">
+            <h3>If you have a project in mind and want to get started</h3>
+            <h3>we can help you. Get in touch!</h3>
+        </div>
     </div>
 
-    <div class="container-fluid">
-        <button class="btn btn-primary"> <img src="images/mail.png" alt=""> Email</button>
-        <button class="btn btn-primary"> <img src="images/whatsapp.png" alt=""> Message</button>
-    </div>
+    <button class="btn btn-primary btn-blue"> <img class="btn-email" src="images/mail.png" alt=""> Email</button>
+    <br>
+    <button class="btn btn-primary btn-green"> <img class="btn-whatsapp" src="images/whatsapp.png" alt=""> Message</button>
+</div>
+<div class="space">
+
+</div>
 <%- include("partials/footer.ejs") %> 

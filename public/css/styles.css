@@ -1,3 +1,102 @@
 body {
     background-color: #F3F3F3;
 }
+
+footer{
+    background-color: #809BCE;
+}
+
+/* .navbar {
+    background-image: url(navbar-bg.png);
+    background-size: 1500px 60px;
+    background-repeat: no-repeat;
+} */
+
+.blue-color {
+    color: #809BCE;
+}
+
+.light-blue-color {
+    color: #9CADCE;
+}
+
+.white-color {
+    color: white;
+}
+
+/* section-1 */
+.title {
+    margin-top: 0.5rem;
+}
+
+.job-title {
+    padding: 1%;
+}
+
+.tag-line {
+    padding: 6%;
+}
+
+.front-img-1 {
+    /* width: 40%; */
+    /* height: 70%; */
+}
+
+.front-img-2 {
+    width: 40%;
+}
+.div-text {
+    margin-top: 5%;
+}
+.div-section {
+    padding-top: 4%;
+}
+
+/* section-2 */
+#section-2 {
+    background-color: #809BCE;
+    padding: 10%;
+}
+
+.txt-center-align {
+    text-align: center;
+}
+
+/* section-3 */
+#section-3 {
+    padding:4%
+}
+
+
+/* contact page */
+.btn-blue {
+    border: none;
+    background-color:#809BCE;
+    width: 150px;
+}
+.btn-green {
+    border: none;
+    background-color: #73D27F;
+    width: 150px;
+    margin: 3%;
+}
+.btn-email{
+    height: 25px;
+}
+.btn-whatsapp {
+    height: 25px;
+}
+.contact-title {
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+.contact-tag-line {
+    padding-bottom: 2%;
+}
+.contact-info {
+    padding-bottom: 4%;
+}
+
+.space {
+    height:30px;
+}
