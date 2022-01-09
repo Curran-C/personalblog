@@ -62,20 +62,28 @@ footer{
 }
 
 .front-img-1 {
-    /* width: 40%; */
-    /* height: 70%; */
+    padding-top: 80px;
+    /* width: 50%; */
+    /* height: 90%; */
 }
 
-.front-img-2 {
-    width: 40%;
-}
+/* .height-less {
+    text-align: center;
+    width: 80%;
+} */
 .div-text-1 {
     margin-top: 4%;
-    padding-left: 200px;
+    padding-left: 20%;
 }
 .div-text-2 {
     margin-top: 3%;
-    padding-right: 150px;
+    padding-right: 15%;
+}
+.div-img-1 {
+    padding-right: 10%;
+}
+.div-img-2 {
+    padding-left: 10%;
 }
 .div-section-1 {
     padding-top: 4%;
@@ -165,4 +173,79 @@ footer{
 .tag-line-work {
     padding-bottom: 1%;
     padding-top: 1%;
+}
+
+
+/* media break points */
+@media screen and (max-width: 860px) {
+    .spacing{
+        margin-top: 10%;
+        /* comment margin-bottom: ; */
+    }
+    .front-img-1 {
+        padding: 4% 9%;
+        height: 60%;
+    }
+    .div-text-1 {
+        padding-left: 4%;
+        padding-bottom: 4% ;
+        position: relative;
+        top: 300px;
+    }
+    .div-text-2 {
+        padding-right: 4%;
+    }
+    .div-img-1 {
+        /* omment padding-right: 4%; */
+        position: relative;
+        bottom: 190px;
+        margin-right: 10%;
+        margin-top: 10px;
+    }
+    .div-img-2 {
+        /* comment width: 500px; */
+        margin-left: 5%;
+        margin-top: 1rem;
+        margin-bottom: 4%;
+    }
+    .smaller-img{
+        width: 400px;
+    }
+    .smaller-img-2 {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .div-img-1{
+         /* comment margin-left: 7rem; */
+        padding-top: 2rem;
+        /* comment height: 80%; */
+        width: 50%;
+        padding-right: 0%;
+    }
+    .div-text-1 {
+        padding-left: 0%;
+    }
+    .div-img-2 {
+        /* comment margin-left: 8rem; */
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 2rem;
+        height: 80%;
+        width: 50%;
+    }
+    .div-text-2 {
+        /* comment width: 30%; */
+        padding-right: 0%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .div-img-1{
+    
+    }
+    .div-img-2 {
+    
+    } 
 }
